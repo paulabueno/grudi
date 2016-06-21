@@ -509,4 +509,19 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+
+.box-modal {
+	height: 50%;
+	width: 50%;
+
+}
+
+.img-modal{
+	height: 100%;	
+	widows: 100%;
+	
+>>>>>>> parent of bb5d7ca... new
 }

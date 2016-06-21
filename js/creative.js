@@ -46,6 +46,7 @@
 
 })(jQuery); // End of use strict
 
+<<<<<<< HEAD
 // minhas alterações //
 
 // Get the modal
@@ -71,3 +72,5 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+=======
+>>>>>>> parent of bb5d7ca... new
