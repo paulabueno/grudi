@@ -49,3 +49,7 @@
 
 // minhas alterações //
 
+
+-webkit-transition: opacity 400ms ease-in;
+-moz-transition: opacity 400ms ease-in;
+transition: opacity 400ms ease-in;
