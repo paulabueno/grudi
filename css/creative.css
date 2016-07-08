@@ -690,7 +690,22 @@ body {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/modal/disco.png);
+    background-image: url(../img/modal/mapa%20fundo.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#modalimg1{
+	position: relative;
+    width: auto;
+	height: auto;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/modal/vinil/fundo%20modal%20.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -702,14 +717,15 @@ body {
 	width:10%; 
 	height:auto; 
 	align-items:flex-start;	
+	margin-left:5%;
 }
 
 #modalicon1:hover{
 	width:20%; 
 	height:auto; 
 	align-items:flex-start;	
-	transition:transform .3s easy-in-out;
-	transform:scale(4);
+	transition:transform .2s linear;
+	transform:scale(2);
 	transition-property:all;
 }
 
@@ -717,14 +733,15 @@ body {
 	width:10%; 
 	height:auto; 
 	align-items:flex-start;	
+	margin-left:5%;
 }
 
 #modalicon2:hover{
 	width:20%; 
 	height:auto; 
 	align-items:flex-start;	
-	transition:transform .3s easy-in-out;
-	transform:scale(4);
+	transition:transform .2s linear;
+	transform:scale(2);
 	transition-property:all;
 }
 
@@ -732,14 +749,15 @@ body {
 	width:10%; 
 	height:auto; 
 	align-items:flex-start;	
+	margin-left:5%;
 }
 
 #modalicon3:hover{
 	width:20%; 
 	height:auto; 
 	align-items:flex-start;	
-	transition:transform .3s easy-in-out;
-	transform:scale(4);
+	transition:transform .2s linear;
+	transform:scale(2);
 	transition-property:all;
 }
 
@@ -747,13 +765,30 @@ body {
 	width:10%; 
 	height:auto; 
 	align-items:flex-start;	
+	margin-left:5%;
 }
 
 #modalicon4:hover{
 	width:20%; 
 	height:auto; 
 	align-items:flex-start;	
-	transition:transform .3s easy-in-out;
-	transform:scale(4);
+	transition:transform .2s linear;
+	transform:scale(2);
+	transition-property:all;
+}
+
+#modalicon-mapa1{
+	width:10%; 
+	height:auto; 
+	align-items:flex-start;	
+	margin-left:5%;
+}
+
+#modalicon-mapa1:hover{
+	width:20%; 
+	height:auto; 
+	align-items:flex-start;	
+	transition:transform .2s linear;
+	transform:scale(2);
 	transition-property:all;
 }
