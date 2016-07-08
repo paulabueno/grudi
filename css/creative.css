@@ -174,7 +174,7 @@ aside {
 
 header {
     position: relative;
-    width: auto;
+    width: 100%;
 	height: auto;
     min-height: auto;
     text-align: center;
@@ -497,7 +497,9 @@ body {
 .modalDialog > div {
     width:50%;
     position: relative;
-    margin: 10% auto;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -525,6 +527,27 @@ body {
 .close:hover {
     background: #00d9ff;
 }
+
+
+/*--MODA1 FUNDO-*/
+
+#modalimg0{
+	position: relative;
+    width: auto;
+	height: auto;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/modal/mapa%20fundo.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*---*/
+
 /* modal 2*/
 
 .modalDialog2 {
@@ -546,173 +569,21 @@ body {
     opacity:1;
     pointer-events: auto;
 }
+
 .modalDialog2 > div {
     width:50%;
     position: relative;
-    margin-top: 5%;
-	margin-left:25%;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
 	text-align:center;
+	
 }
 
-
-
-/* modal3 */
-
-.modalDialog3 {
- 	position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalDialog3:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalDialog3 > div {
-    width:50%;
-    position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-	text-align:center;
-}
-
-/* modal4 */
-
-.modalDialog4 {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalDialog4:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalDialog4 > div {
-	width:50%;
-    position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-	text-align:center;
-}
-
-/* modal5 */
-
-.modalDialog5 {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalDialog5:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalDialog5 > div {
-    width:50%;
-    position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-	text-align:center;
-}
-
-/* modal6 */
-
-.modalDialog6 {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalDialog6:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalDialog6 > div {
-    width:50%;
-    position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-	text-align:center;
-}
-
-#modalimg0{
-	position: relative;
-    width: auto;
-	height: auto;
-    min-height: auto;
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/modal/mapa%20fundo.png);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#modalimg1{
-	position: relative;
-    width: auto;
-	height: auto;
-    min-height: auto;
-    text-align: center;
-    color: #fff;
-    background-image: url(../img/modal/vinil/fundo%20modal%20.png);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
+/*-MODAL2 ICONE--*/
 #modalicon1{
 	width:10%; 
 	height:auto; 
@@ -777,18 +648,155 @@ body {
 	transition-property:all;
 }
 
-#modalicon-mapa1{
-	width:10%; 
-	height:auto; 
-	align-items:flex-start;	
-	margin-left:5%;
+/*--MODAL2 FUNDO--*/
+
+#modalimg1{
+	position: relative;
+    width: auto;
+	height: auto;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/modal/vinil/fundo%20modal%20.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-#modalicon-mapa1:hover{
-	width:20%; 
-	height:auto; 
-	align-items:flex-start;	
-	transition:transform .2s linear;
-	transform:scale(2);
-	transition-property:all;
+/*---*/
+
+/* modal3 */
+
+.modalDialog3 {
+ 	position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
 }
+.modalDialog3:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog3 > div {
+    width:50%;
+    position: relative;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+	text-align:center;
+}
+
+/* modal4 */
+
+.modalDialog4 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog4:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog4 > div {
+    width:50%;
+    position: relative;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+	text-align:center;
+}
+
+/* modal5 */
+
+.modalDialog5 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog5:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog5 > div {
+    width:50%;
+    position: relative;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+	text-align:center;
+}
+
+/* modal6 */
+
+.modalDialog6 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog6:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog6 > div {
+    width:50%;
+    position: relative;
+    margin-left:25% ;
+	margin-right:20% ;
+	margin-top:20px;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+	text-align:center;
+}
+
+
