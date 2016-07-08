@@ -174,7 +174,7 @@ aside {
 
 header {
     position: relative;
-    width: 100%;
+    width: auto;
 	height: auto;
     min-height: auto;
     text-align: center;
@@ -549,7 +549,8 @@ body {
 .modalDialog2 > div {
     width:50%;
     position: relative;
-    margin: 10% auto;
+    margin-top: 5%;
+	margin-left:25%;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
     background: #fff;
@@ -680,4 +681,79 @@ body {
     border-radius: 10px;
     background: #fff;
 	text-align:center;
+}
+
+#modalimg0{
+	position: relative;
+    width: auto;
+	height: auto;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/modal/disco.png);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#modalicon1{
+	width:10%; 
+	height:auto; 
+	align-items:flex-start;	
+}
+
+#modalicon1:hover{
+	width:20%; 
+	height:auto; 
+	align-items:flex-start;	
+	transition:transform .3s easy-in-out;
+	transform:scale(4);
+	transition-property:all;
+}
+
+#modalicon2{
+	width:10%; 
+	height:auto; 
+	align-items:flex-start;	
+}
+
+#modalicon2:hover{
+	width:20%; 
+	height:auto; 
+	align-items:flex-start;	
+	transition:transform .3s easy-in-out;
+	transform:scale(4);
+	transition-property:all;
+}
+
+#modalicon3{
+	width:10%; 
+	height:auto; 
+	align-items:flex-start;	
+}
+
+#modalicon3:hover{
+	width:20%; 
+	height:auto; 
+	align-items:flex-start;	
+	transition:transform .3s easy-in-out;
+	transform:scale(4);
+	transition-property:all;
+}
+
+#modalicon4{
+	width:10%; 
+	height:auto; 
+	align-items:flex-start;	
+}
+
+#modalicon4:hover{
+	width:20%; 
+	height:auto; 
+	align-items:flex-start;	
+	transition:transform .3s easy-in-out;
+	transform:scale(4);
+	transition-property:all;
 }
