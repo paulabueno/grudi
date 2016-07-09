@@ -506,6 +506,18 @@ body {
 	text-align:center;
 	
 }
+.button{
+	background-color:rgba(178,18,110,1.00);
+	text-align:center;
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	height:auto;
+	width:auto;
+	padding:5px;
+	cursor:pointer;
+	
+}
+
 .close {
     background: #606061;
     color: #FFFFFF;
@@ -538,7 +550,7 @@ body {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/modal/mapa%20fundo.png);
+    background-image: url(../img/modal/mapa/mapa%20fundo.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
